@@ -4,10 +4,13 @@
 name: Vimrc (VimL)
 hidden: true
 file_extensions:
+  - vim
   - .vimrc
   - .gvimrc
   - _vimrc
   - _gvimrc
+  - vimrc
+  - gvimrc
 scope: source.viml.vimrc
 contexts:
   main:

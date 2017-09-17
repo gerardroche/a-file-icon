@@ -4,8 +4,12 @@
 name: Shell Script (Git)
 hidden: true
 file_extensions:
+  - .gitattributes
+  - .gitconfig
+  - .gitexcludes
   - .gitignore
   - .gitkeep
+  - .gitmodules
 scope: source.shell.git
 contexts:
   main:

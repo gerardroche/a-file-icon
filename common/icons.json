@@ -480,8 +480,12 @@
       {
         "name": "Shell Script (Git)",
         "extensions": [
+          ".gitattributes",
+          ".gitconfig",
+          ".gitexcludes",
           ".gitignore",
-          ".gitkeep"
+          ".gitkeep",
+          ".gitmodules"
         ],
         "base": "source.shell",
         "scope": "source.shell.git"
@@ -1528,10 +1532,13 @@
       {
         "name": "Vimrc (VimL)",
         "extensions": [
+          "vim",
           ".vimrc",
           ".gvimrc",
           "_vimrc",
-          "_gvimrc"
+          "_gvimrc",
+          "vimrc",
+          "gvimrc"
         ],
         "base": "source.viml",
         "scope": "source.viml.vimrc"
