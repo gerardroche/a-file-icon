@@ -1,2 +1,6 @@
 [flake8]
-ignore = F401, F403
+max-line-length = 120
+
+ignore = D, F401, F403
+
+exclude = common/vendor
